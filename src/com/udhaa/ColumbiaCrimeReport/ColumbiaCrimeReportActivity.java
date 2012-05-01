@@ -76,7 +76,6 @@ public class ColumbiaCrimeReportActivity extends Activity implements OnClickList
         
         OnDateChangedListener listener = new OnDateChangedListener(){
 
-			@Override
 			public void onDateChanged(DatePicker dp, int year,
 					int monthOfYear, int dayOfMonth) {
 				Calendar c = Calendar.getInstance();
@@ -202,8 +201,6 @@ public class ColumbiaCrimeReportActivity extends Activity implements OnClickList
 
 	
 
-	@Override
-	
 	public boolean onTouch(View arg0, MotionEvent arg1) {
 		// TODO Auto-generated method stub
 		return false;
